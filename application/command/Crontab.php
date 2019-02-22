@@ -22,6 +22,6 @@ class Crontab extends Command
     {
         // 指令输出
         $str = MemberOrder::autoupdate();
-    	$output->writeln('autoupdate'.$str);
+    	$output->writeln($str);
     }
 }
